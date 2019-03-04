@@ -1,0 +1,15 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: opaque;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+}
+
+@keyframes opaque{
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 0.5;}
+}

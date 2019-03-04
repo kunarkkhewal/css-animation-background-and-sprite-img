@@ -1,0 +1,25 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+div.container {
+    width: 100%;
+    height: 100vmin;
+    background-image: url("../img.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+div.content{
+    top: 10%;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-image: url(../image.jpeg);
+    background-position: center;
+    background-attachment: local;
+    overflow-y: scroll;
+}
+
