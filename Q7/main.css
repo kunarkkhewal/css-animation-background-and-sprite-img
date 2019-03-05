@@ -1,29 +1,20 @@
-/* div{
-    width: 200px;
-    height: 100px;
-    background-color: #ff00ff;
-    border: 1px solid #000;
 
-} */
-
-.box { 
+.box {
+    margin:  500px auto;
     border: 1px solid #000;
     width: 200px; 
     height: 100px; 
     background-color: #ff00ff; 
-    transition: width 3s, height 3s, 
+    transition-duration: 3s;
+    /* transition: width 3s, height 3s, 
                 background-color 3s, 
-                /* scale 3s */
-                transform 3s; 
+                transform 3s;  */
 }
 
-.box:hover { 
+.box:active { 
     background-color: #000; 
     border: 2px solid #ff00ff;
     width: 100px; 
     height: 200px;
-    /* scale: 2; */
-    /* scale-y: 3; */
-    /* scale-x: 2;  */
-    /* transform: rotate(180deg);  */
+    transform: scale(2,3);
 }
